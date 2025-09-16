@@ -14,5 +14,10 @@
     <description>「闲来 - 无事」系统公共模块，包含静态公共组件</description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>
