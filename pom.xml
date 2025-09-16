@@ -2,6 +2,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <wushi.version>1.0.0-SNAPSHOT</wushi.version>
+        <distribution.releases.url>http://192.168.1.100:8081/repository/maven-releases/</distribution.releases.url>
+        <distribution.snapshots.url>http://192.168.1.100:8081/repository/maven-snapshots/</distribution.snapshots.url>
+        <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -11,18 +20,14 @@
 
     <groupId>fun.xianlai</groupId>
     <artifactId>wushi</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>${wushi.version}</version>
     <packaging>pom</packaging>
     <name>wushi</name>
     <description>A mixed project contains many things.</description>
 
-    <properties>
-        <distribution.releases.url>http://192.168.1.100:8081/repository/maven-releases/</distribution.releases.url>
-        <distribution.snapshots.url>http://192.168.1.100:8081/repository/maven-snapshots/</distribution.snapshots.url>
-        <java.version>17</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
+    <modules>
+        <module>wushi-main</module>
+    </modules>
 
     <dependencyManagement>
     </dependencyManagement>
