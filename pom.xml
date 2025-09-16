@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <wushi.version>1.0.0-SNAPSHOT</wushi.version>
         <distribution.releases.url>http://192.168.1.100:8081/repository/maven-releases/</distribution.releases.url>
         <distribution.snapshots.url>http://192.168.1.100:8081/repository/maven-snapshots/</distribution.snapshots.url>
+        <wushi.version>1.0.0</wushi.version>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -23,9 +23,10 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>wushi</name>
-    <description>「闲来·无事」系统</description>
+    <description>「闲来 - 无事」系统</description>
 
     <modules>
+        <module>wushi-common</module>
         <module>wushi-main</module>
     </modules>
 

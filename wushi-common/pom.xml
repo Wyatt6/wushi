@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>fun.xianlai</groupId>
+        <artifactId>wushi</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>wushi-common</artifactId>
+    <packaging>jar</packaging>
+    <name>wushi-common</name>
+    <description>「闲来 - 无事」系统公共模块，包含静态公共组件</description>
+
+    <dependencies>
+    </dependencies>
+</project>
