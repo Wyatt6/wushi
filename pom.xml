@@ -20,10 +20,10 @@
 
     <groupId>fun.xianlai</groupId>
     <artifactId>wushi</artifactId>
-    <version>${wushi.version}</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>wushi</name>
-    <description>A mixed project contains many things.</description>
+    <description>「闲来·无事」系统</description>
 
     <modules>
         <module>wushi-main</module>
