@@ -26,7 +26,7 @@
     <description>「闲来 - 无事」系统</description>
 
     <modules>
-        <module>wushi-common</module>
+        <module>wushi-basic</module>
         <module>wushi-main</module>
     </modules>
 

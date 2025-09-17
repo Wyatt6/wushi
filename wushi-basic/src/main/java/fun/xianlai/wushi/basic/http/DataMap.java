@@ -1,4 +1,4 @@
-package fun.xianlai.wushi.common.http;
+package fun.xianlai.wushi.basic.http;
 
 import java.util.HashMap;
 

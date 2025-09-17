@@ -1,4 +1,4 @@
-package fun.xianlai.wushi.common.annotations;
+package fun.xianlai.wushi.basic.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -10,6 +10,6 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface SimpleServiceLog {
+public @interface ControllerLog {
     String value() default "";
 }

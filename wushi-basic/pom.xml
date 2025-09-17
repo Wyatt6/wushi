@@ -8,12 +8,16 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>wushi-common</artifactId>
+    <artifactId>wushi-basic</artifactId>
     <packaging>jar</packaging>
     <name>wushi-common</name>
     <description>「闲来 - 无事」系统公共模块，包含静态公共组件</description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
