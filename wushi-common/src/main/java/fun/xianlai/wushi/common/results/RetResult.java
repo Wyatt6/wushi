@@ -1,4 +1,4 @@
-package fun.xianlai.wushi.basic.results;
+package fun.xianlai.wushi.common.results;
 
 import lombok.Getter;
 

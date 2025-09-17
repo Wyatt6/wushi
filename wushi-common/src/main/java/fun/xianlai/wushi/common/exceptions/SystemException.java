@@ -1,4 +1,4 @@
-package fun.xianlai.wushi.basic.exceptions;
+package fun.xianlai.wushi.common.exceptions;
 
 /**
  * @author WyattLau
