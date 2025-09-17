@@ -1,4 +1,4 @@
-package fun.xianlai.wushi.basic.http;
+package fun.xianlai.wushi.basic.results;
 
 import lombok.Getter;
 
